@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  /* border: 1px solid red; */
+  width: 100vw;
+  height: 300px;
+}
+#searchBox {
+}
+#headerText {
+  padding-top: 100px;
+  padding-bottom: 5px;
+  font-size: 40pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#headerText > span:nth-child(1n) {
+  color: blue;
+}
+
+#headerText > span:nth-child(2n) {
+  color: red;
+}
+
+#headerText > span:nth-child(3n) {
+  color: yellow;
+}
+.buttons {
+  height: 28px;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  outline: 3px solid black;
+}
+
+iframe {
+  width: 100vw;
+  height: 900px;
+}
